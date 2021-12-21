@@ -12,11 +12,12 @@ This is a hex value regex.
 - [] indicates a character set
     - a-f requires a match of lowercase letters ranging from a-f
     - 0-9 requires a number that ranges from 0-9
-- {6} a quantifier that will match exactly 6 characters from the character set
+- {6} a quantifier that will require a match of exactly 6 characters from the character set
 - | is an alternation, or an OR operator. This makes it so the expression before the | and after the | can be matched.
 - [] the second character set.
     - a-f requires a match lowercase letters ranging from a-f
     - 0-9 requires a number that ranges from 0-9
+- {3} a quantifier that will require a match of exactly 3 characters from the character set
 - $ indicates the end of the string
 
 ## Table of Contents
