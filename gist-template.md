@@ -44,8 +44,8 @@ This is a hex value regex.
 
 ### Quantifiers
 * Quantifiers are used to match any preceding characters a certain number of times. 
-* + plus: Matches one or more of the preceding token
-* * star: Matches 0 or more of the preceding token.
+* (+) plus: Matches one or more of the preceding token
+* (*) star: Matches 0 or more of the preceding token.
 * {1,3} quantifier: Matches specified quantity of the previous token.
 * ? optional matches 0 or 1 of the preceding token, effectively making it optional.
 * Alternation | :Acts like a boolean OR. Matches expression before or after the |. 
